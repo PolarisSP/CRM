@@ -1,0 +1,142 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "page/welcome-1.html?t=1"
+  },
+  "logoInfo": {
+    "title": "LAYUI MINI",
+    "image": "images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "客户管理",
+          "href": "",
+          "icon": "fa fa-home",
+          "target": "_self",
+          "child": [
+            {
+              "title": "新增客户",
+              "href": "page/welcome-1.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "客户列表",
+              "href": "page/welcome-2.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "业务员管理",
+          "href": "",
+          "icon": "fa fa-window-maximize",
+          "target": "_self",
+          "child": [
+            {
+              "title": "新增业务员",
+              "href": "page/welcome-1.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "业务员列表",
+              "href": "page/welcome-2.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "拜访管理",
+          "href": "",
+          "icon": "fa fa-gears",
+          "target": "_self",
+          "child": [
+          {
+            "title": "新增客户拜访",
+            "href": "page/welcome-1.html",
+            "icon": "fa fa-tachometer",
+            "target": "_self"
+          },
+          {
+            "title": "客户拜访列表",
+            "href": "page/welcome-2.html",
+            "icon": "fa fa-tachometer",
+            "target": "_self"
+          }
+        ]
+        },
+        {
+          "title": "综合查询",
+          "href": "",
+          "icon": "fa fa-gears",
+          "target": "_self",
+          "child": [
+            {
+              "title": "客户信息查找",
+              "href": "page/welcome-1.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "联系人信息查找",
+              "href": "page/welcome-2.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "拜访记录查找",
+              "href": "page/welcome-2.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "统计分析",
+          "href": "",
+          "icon": "fa fa-calendar",
+          "target": "_self",
+          "child": [
+            {
+              "title": "客户行业统计",
+              "href": "page/form.html",
+              "icon": "fa fa-list-alt",
+              "target": "_self"
+            },
+            {
+              "title": "客户来源统计",
+              "href": "page/form-step.html",
+              "icon": "fa fa-navicon",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "系统管理",
+          "href": "",
+          "icon": "fa fa-flag-o",
+          "target": "_self",
+          "child": [
+            {
+              "title": "用户管理",
+              "href": "page/login-1.html",
+              "icon": "fa fa-stumbleupon-circle",
+              "target": "_blank"
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xin.spgraceme.dao.SourceMapper">
+  <resultMap id="BaseResultMap" type="xin.spgraceme.entity.Source">
+    <id column="sid" jdbcType="CHAR" property="sid" />
+    <result column="sname" jdbcType="VARCHAR" property="sname" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    sid, sname, description
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from source
+    where sid = #{sid,jdbcType=CHAR}
+  </select>
+
+
+  <select id="selectSourceData"  resultType="map">
+    select
+    count(customer.sid) 'value',source.sname name
+    from source left join customer on source.sid = customer.sid group by source.sname
+
+  </select>
+
+
+  <select id="selectAll"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from source
+
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from source
+    where sid = #{sid,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="xin.spgraceme.entity.Source">
+    insert into source (sid, sname, description
+      )
+    values (#{sid,jdbcType=CHAR}, #{sname,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="xin.spgraceme.entity.Source">
+    insert into source
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="sid != null">
+        sid,
+      </if>
+      <if test="sname != null">
+        sname,
+      </if>
+      <if test="description != null">
+        description,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="sid != null">
+        #{sid,jdbcType=CHAR},
+      </if>
+      <if test="sname != null">
+        #{sname,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null">
+        #{description,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="xin.spgraceme.entity.Source">
+    update source
+    <set>
+      <if test="sname != null">
+        sname = #{sname,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null">
+        description = #{description,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where sid = #{sid,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="xin.spgraceme.entity.Source">
+    update source
+    set sname = #{sname,jdbcType=VARCHAR},
+      description = #{description,jdbcType=VARCHAR}
+    where sid = #{sid,jdbcType=CHAR}
+  </update>
+</mapper>

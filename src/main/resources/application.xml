@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/tx
+         http://www.springframework.org/schema/tx/spring-tx.xsd
+         http://www.springframework.org/schema/aop
+         http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+        <context:component-scan base-package="xin.spgraceme"/>
+
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!--配置数据源-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="typeAliasesPackage" value="xin.spgraceme.entity"/>
+        <property name="mapperLocations" value="classpath:mapper/**.xml"/>
+        <property name="plugins">
+           <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <props>
+                            <prop key="helperDialect">mysql</prop>
+                            <prop key="reasonable">true</prop>
+                        </props>
+                    </property>
+                </bean>
+           </array>
+        </property>
+    </bean>
+
+
+    <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="xin.spgraceme.dao"></property>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+
+
+    <!--shiro-->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="myRealm"/>
+    </bean>
+
+<!--    认证匹配器-->
+    <bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+        <property name="hashIterations" value="100"/>
+        <property name="hashAlgorithmName" value="MD5"/>
+    </bean>
+
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <property name="loginUrl" value="user/login"/>
+<!--        <property name="unauthorizedUrl" value=""/>-->
+        <property name="filterChainDefinitions">
+            <value>
+                /user/login=anon
+                /user/loginDo=anon
+                /user/reg=anon
+                /user/regDo=anon
+            </value>
+        </property>
+    </bean>
+
+
+
+    <!--添加图片验证码的bean-->
+    <bean id="captchaProducer" class="com.google.code.kaptcha.impl.DefaultKaptcha">
+        <property name="config">
+            <bean class="com.google.code.kaptcha.util.Config">
+                <constructor-arg>
+                    <props>
+                        <prop key="kaptcha.border">no</prop>
+                        <prop key="kaptcha.border.color">105,179,90</prop>
+                        <prop key="kaptcha.textproducer.font.color">red</prop>
+                        <prop key="kaptcha.image.width">250</prop>
+                        <prop key="kaptcha.textproducer.font.size">90</prop>
+                        <prop key="kaptcha.image.height">90</prop>
+                        <prop key="kaptcha.session.key">code</prop>
+                        <prop key="kaptcha.textproducer.char.length">4</prop>
+                        <prop key="kaptcha.textproducer.font.names">宋体,楷体,微软雅黑</prop>
+                    </props>
+                </constructor-arg>
+            </bean>
+        </property>
+    </bean>
+
+
+
+    <!--配置事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="select*" read-only="true"/>
+            <tx:method name="update*"/>
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--aop编程 将事务管理器切面化-->
+    <aop:config>
+        <aop:pointcut id="pt1" expression="execution(* xin.spgraceme.service.*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pt1"/>
+    </aop:config>
+</beans>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>layui</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/crm/layuimini/lib/layui-v2.5.5/css/layui.css" media="all">
+    <link rel="stylesheet" href="/crm/layuimini/css/public.css" media="all">
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<div class="layui-form layuimini-form">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">经手人</label>
+        <div class="layui-input-block">
+            <select id="uid" name="uid" lay-filter="uid">
+
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">客户</label>
+        <div class="layui-input-block">
+            <select id="cid" name="cid" lay-filter="cid">
+
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">拜访时间</label>
+        <div class="layui-input-inline">
+            <input type="text" class="layui-input" name="visitTime" id="visitTime" placeholder="yyyy/MM/dd HH:mm:ss">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">拜访结束时间</label>
+        <div class="layui-input-inline">
+            <input type="text" class="layui-input" name="endTime" id="endTime" placeholder="yyyy/MM/dd HH:mm:ss">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label ">拜访记录</label>
+        <div class="layui-input-block">
+            <input type="text" name="record" placeholder="请输入拜访记录" value="" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="saveBtn">确认保存</button>
+        </div>
+    </div>
+</div>
+<script src="/crm/layuimini/lib/layui-v2.5.5/layui.js" charset="utf-8"></script>
+<script>
+    layui.use(['form','laydate'], function () {
+        var form = layui.form,
+            layer = layui.layer,
+            $ = layui.$,
+            laydate = layui.laydate;
+
+        //日期时间选择器
+        laydate.render({
+            elem: '#visitTime'
+            ,type: 'datetime',
+            format: 'yyyy/MM/dd'
+        });
+        laydate.render({
+            elem: '#endTime'
+            ,type: 'datetime',
+            format: 'yyyy/MM/dd'
+        });
+        //监听提交
+        form.on('submit(saveBtn)', function (data) {
+            console.log(data.field);
+
+            $.post("/crm/visit/addVisit",data.field,function(result){
+                if(result.state == 0){
+                    layer.msg("添加成功");
+                }
+            });
+
+            return false;
+        });
+
+        $.get("/crm/user/selectSales",{},function(result){
+            if(result.state == 0){
+                var uid = $("#uid");
+                uid.empty();
+                $.each(result.data.list,function(index,ele){
+                    var option = $("<option></option>");
+                    option.val(ele.uid);
+                    option.text(ele.fullname);
+                    uid.append(option);
+                });
+                form.render('select');
+            }
+        });
+
+
+        $.get("/crm/customer/selectCustomer",{},function(result){
+            if(result.state == 0){
+                var cid = $("#cid");
+                cid.empty();
+                $.each(result.data.list,function(index,ele){
+                    var option = $("<option></option>");
+                    option.val(ele.cid);
+                    option.text(ele.contacts);
+                    cid.append(option);
+                });
+                form.render('select');
+            }
+        });
+
+    });
+</script>
+</body>
+</html>

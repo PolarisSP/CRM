@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xin.spgraceme.dao.PermissionMapper">
+  <resultMap id="BaseResultMap" type="xin.spgraceme.entity.Permission">
+    <id column="pid" jdbcType="CHAR" property="pid" />
+    <result column="parent_id" jdbcType="CHAR" property="parentId" />
+    <result column="pName" jdbcType="VARCHAR" property="pname" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="operation" jdbcType="VARCHAR" property="operation" />
+    <result column="level" jdbcType="TINYINT" property="level" />
+  </resultMap>
+
+
+  <sql id="Base_Column_List">
+    permission.pid, permission.parent_id, permission.pName, permission.description, permission.url, permission.operation, permission.level
+  </sql>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from permission
+    where pid = #{pid,jdbcType=CHAR}
+  </select>
+
+
+    <select id="selectByRidPid" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from role_permission  left join permission on role_permission.pid=permission.pid
+        where role_permission.rid = #{rid,jdbcType=CHAR} and role_permission.pid=#{pid,jdbcType=CHAR}
+    </select>
+
+
+    <select id="selectByParentId" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from permission
+        where parent_id = #{pid,jdbcType=CHAR}
+    </select>
+
+  <select id="selectByRidParentid" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from role_permission  left join permission on role_permission.pid=permission.pid
+    where role_permission.rid = #{rid,jdbcType=CHAR} and permission.parent_id=#{parent_id,jdbcType=CHAR}
+  </select>
+
+
+  <select id="selectAll"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from permission
+  </select>
+
+
+  <select id="selectByRid" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from role_permission left join permission on role_permission.pid=permission.pid
+    where role_permission.rid = #{rid,jdbcType=CHAR}
+  </select>
+
+
+  <select id="selectPermissionByRid" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from role_permission left join permission on role_permission.pid=permission.pid
+    where role_permission.rid = #{rid,jdbcType=CHAR}
+  </select>
+
+  <!--<select id="selectByRid" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from role_permission left join permission on role_permission.pid=permission.pid
+    where role_permission.rid = #{rid,jdbcType=CHAR}
+  </select>-->
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from permission
+    where pid = #{pid,jdbcType=CHAR}
+  </delete>
+
+
+  <delete id="deleteByRolePermission">
+        delete from role_permission where  role_permission.rid = #{rid,jdbcType=CHAR} and role_permission.pid=#{pid,jdbcType=CHAR}
+  </delete>
+
+    <insert id="insertRolePermission" >
+    insert into role_permission (rpid, pid, rid)
+    values (#{rpid,jdbcType=CHAR},#{pid,jdbcType=CHAR}, #{rid,jdbcType=CHAR})
+  </insert>
+
+
+  <insert id="insert" parameterType="xin.spgraceme.entity.Permission">
+    insert into permission (pid, parent_id, pName, 
+      description, url, operation, 
+      level)
+    values (#{pid,jdbcType=CHAR}, #{parentId,jdbcType=CHAR}, #{pname,jdbcType=VARCHAR}, 
+      #{description,jdbcType=VARCHAR}, #{url,jdbcType=VARCHAR}, #{operation,jdbcType=VARCHAR}, 
+      #{level,jdbcType=TINYINT})
+  </insert>
+  <insert id="insertSelective" parameterType="xin.spgraceme.entity.Permission">
+    insert into permission
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="pid != null">
+        pid,
+      </if>
+      <if test="parentId != null">
+        parent_id,
+      </if>
+      <if test="pname != null">
+        pName,
+      </if>
+      <if test="description != null">
+        description,
+      </if>
+      <if test="url != null">
+        url,
+      </if>
+      <if test="operation != null">
+        operation,
+      </if>
+      <if test="level != null">
+        level,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="pid != null">
+        #{pid,jdbcType=CHAR},
+      </if>
+      <if test="parentId != null">
+        #{parentId,jdbcType=CHAR},
+      </if>
+      <if test="pname != null">
+        #{pname,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null">
+        #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null">
+        #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="operation != null">
+        #{operation,jdbcType=VARCHAR},
+      </if>
+      <if test="level != null">
+        #{level,jdbcType=TINYINT},
+      </if>
+    </trim>
+  </insert>
+
+
+
+  <update id="updateByPrimaryKeySelective" parameterType="xin.spgraceme.entity.Permission">
+    update permission
+    <set>
+      <if test="parentId != null">
+        parent_id = #{parentId,jdbcType=CHAR},
+      </if>
+      <if test="pname != null">
+        pName = #{pname,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null">
+        description = #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null">
+        url = #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="operation != null">
+        operation = #{operation,jdbcType=VARCHAR},
+      </if>
+      <if test="level != null">
+        level = #{level,jdbcType=TINYINT},
+      </if>
+    </set>
+    where pid = #{pid,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="xin.spgraceme.entity.Permission">
+    update permission
+    set parent_id = #{parentId,jdbcType=CHAR},
+      pName = #{pname,jdbcType=VARCHAR},
+      description = #{description,jdbcType=VARCHAR},
+      url = #{url,jdbcType=VARCHAR},
+      operation = #{operation,jdbcType=VARCHAR},
+      level = #{level,jdbcType=TINYINT}
+    where pid = #{pid,jdbcType=CHAR}
+  </update>
+</mapper>

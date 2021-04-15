@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xin.spgraceme.dao.VisitMapper">
+  <resultMap id="BaseResultMap" type="xin.spgraceme.entity.Visit">
+    <id column="vid" jdbcType="CHAR" property="vid" />
+    <result column="uid" jdbcType="CHAR" property="uid" />
+    <result column="cid" jdbcType="CHAR" property="cid" />
+    <result column="visittime" jdbcType="DATE" property="visittime" />
+    <result column="endtime" jdbcType="DATE" property="endtime" />
+    <result column="record" jdbcType="VARCHAR" property="record" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    vid, uid, cid, visittime, endtime, record
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from visit
+    where vid = #{vid,jdbcType=CHAR}
+  </select>
+
+
+
+  <select id="selectAll" resultMap="BaseResultMap">
+    select
+    visit.vid,visit.uid,visit.cid,visit.visittime,visit.endtime,visit.record
+    from visit left join user on visit.uid = user.uid left join customer on visit.cid = customer.cid
+    <where>
+      <if test="fullname != null">
+        user.fullname like #{fullname}
+      </if>
+      <if test="contacts != null">
+        and customer.contacts like #{contacts}
+      </if>
+    </where>
+  </select>
+
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from visit
+    where vid = #{vid,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="xin.spgraceme.entity.Visit">
+    insert into visit (vid, uid, cid, visittime, 
+      endtime, record)
+    values (#{vid,jdbcType=CHAR}, #{uid,jdbcType=CHAR}, #{cid,jdbcType=CHAR}, #{visittime,jdbcType=DATE}, 
+      #{endtime,jdbcType=DATE}, #{record,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="xin.spgraceme.entity.Visit">
+    insert into visit
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="vid != null">
+        vid,
+      </if>
+      <if test="uid != null">
+        uid,
+      </if>
+      <if test="cid != null">
+        cid,
+      </if>
+      <if test="visittime != null">
+        visittime,
+      </if>
+      <if test="endtime != null">
+        endtime,
+      </if>
+      <if test="record != null">
+        record,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="vid != null">
+        #{vid,jdbcType=CHAR},
+      </if>
+      <if test="uid != null">
+        #{uid,jdbcType=CHAR},
+      </if>
+      <if test="cid != null">
+        #{cid,jdbcType=CHAR},
+      </if>
+      <if test="visittime != null">
+        #{visittime,jdbcType=DATE},
+      </if>
+      <if test="endtime != null">
+        #{endtime,jdbcType=DATE},
+      </if>
+      <if test="record != null">
+        #{record,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="xin.spgraceme.entity.Visit">
+    update visit
+    <set>
+      <if test="uid != null">
+        uid = #{uid,jdbcType=CHAR},
+      </if>
+      <if test="cid != null">
+        cid = #{cid,jdbcType=CHAR},
+      </if>
+      <if test="visittime != null">
+        visittime = #{visittime,jdbcType=DATE},
+      </if>
+      <if test="endtime != null">
+        endtime = #{endtime,jdbcType=DATE},
+      </if>
+      <if test="record != null">
+        record = #{record,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where vid = #{vid,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="xin.spgraceme.entity.Visit">
+    update visit
+    set uid = #{uid,jdbcType=CHAR},
+      cid = #{cid,jdbcType=CHAR},
+      visittime = #{visittime,jdbcType=DATE},
+      endtime = #{endtime,jdbcType=DATE},
+      record = #{record,jdbcType=VARCHAR}
+    where vid = #{vid,jdbcType=CHAR}
+  </update>
+</mapper>

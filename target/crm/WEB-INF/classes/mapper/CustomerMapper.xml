@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xin.spgraceme.dao.CustomerMapper">
+  <resultMap id="BaseResultMap" type="xin.spgraceme.entity.Customer">
+    <id column="cid" jdbcType="CHAR" property="cid" />
+    <result column="enterprise" jdbcType="VARCHAR" property="enterprise" />
+    <result column="contacts" jdbcType="VARCHAR" property="contacts" />
+    <result column="telphone" jdbcType="VARCHAR" property="telphone" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="iid" jdbcType="CHAR" property="iid" />
+    <result column="sid" jdbcType="CHAR" property="sid" />
+    <result column="uid" jdbcType="CHAR" property="uid" />
+    <result column="createdate" jdbcType="DATE" property="createdate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    cid, enterprise, contacts, telphone, email, iid, sid, uid, createdate
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from customer
+    where cid = #{cid,jdbcType=CHAR}
+  </select>
+
+
+  <select id="selectAll"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from customer
+  </select>
+
+
+
+  <select id="selectAllCustomer"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from customer
+    <where>
+      <if test="enterprise != null">
+        enterprise like #{enterprise}
+      </if>
+      <if test="contacts != null">
+        and contacts like #{contacts}
+      </if>
+      <if test="telPhone != null">
+        and telPhone=#{telPhone}
+      </if>
+      <if test="iid != null">
+        and iid=#{iid}
+      </if>
+      <if test="sid != null">
+        and sid=#{sid}
+      </if>
+    </where>
+  </select>
+
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from customer
+    where cid = #{cid,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="xin.spgraceme.entity.Customer">
+    insert into customer (cid, enterprise, contacts, 
+      telphone, email, iid, 
+      sid, uid, createdate)
+    values (#{cid,jdbcType=CHAR}, #{enterprise,jdbcType=VARCHAR}, #{contacts,jdbcType=VARCHAR}, 
+      #{telphone,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, #{iid,jdbcType=CHAR}, 
+      #{sid,jdbcType=CHAR}, #{uid,jdbcType=CHAR}, #{createdate,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" parameterType="xin.spgraceme.entity.Customer">
+    insert into customer
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="cid != null">
+        cid,
+      </if>
+      <if test="enterprise != null">
+        enterprise,
+      </if>
+      <if test="contacts != null">
+        contacts,
+      </if>
+      <if test="telphone != null">
+        telphone,
+      </if>
+      <if test="email != null">
+        email,
+      </if>
+      <if test="iid != null">
+        iid,
+      </if>
+      <if test="sid != null">
+        sid,
+      </if>
+      <if test="uid != null">
+        uid,
+      </if>
+      <if test="createdate != null">
+        createdate,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="cid != null">
+        #{cid,jdbcType=CHAR},
+      </if>
+      <if test="enterprise != null">
+        #{enterprise,jdbcType=VARCHAR},
+      </if>
+      <if test="contacts != null">
+        #{contacts,jdbcType=VARCHAR},
+      </if>
+      <if test="telphone != null">
+        #{telphone,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="iid != null">
+        #{iid,jdbcType=CHAR},
+      </if>
+      <if test="sid != null">
+        #{sid,jdbcType=CHAR},
+      </if>
+      <if test="uid != null">
+        #{uid,jdbcType=CHAR},
+      </if>
+      <if test="createdate != null">
+        #{createdate,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="xin.spgraceme.entity.Customer">
+    update customer
+    <set>
+      <if test="enterprise != null">
+        enterprise = #{enterprise,jdbcType=VARCHAR},
+      </if>
+      <if test="contacts != null">
+        contacts = #{contacts,jdbcType=VARCHAR},
+      </if>
+      <if test="telphone != null">
+        telphone = #{telphone,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="iid != null">
+        iid = #{iid,jdbcType=CHAR},
+      </if>
+      <if test="sid != null">
+        sid = #{sid,jdbcType=CHAR},
+      </if>
+      <if test="uid != null">
+        uid = #{uid,jdbcType=CHAR},
+      </if>
+      <if test="createdate != null">
+        createdate = #{createdate,jdbcType=DATE},
+      </if>
+    </set>
+    where cid = #{cid,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="xin.spgraceme.entity.Customer">
+    update customer
+    set enterprise = #{enterprise,jdbcType=VARCHAR},
+      contacts = #{contacts,jdbcType=VARCHAR},
+      telphone = #{telphone,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      iid = #{iid,jdbcType=CHAR},
+      sid = #{sid,jdbcType=CHAR},
+      uid = #{uid,jdbcType=CHAR},
+      createdate = #{createdate,jdbcType=DATE}
+    where cid = #{cid,jdbcType=CHAR}
+  </update>
+</mapper>
