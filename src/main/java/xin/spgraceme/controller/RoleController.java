@@ -29,13 +29,13 @@ public class RoleController {
     @RequiresUser
     @RequiresRoles("系统管理员")
     @ResponseBody
-    public Result<List<RoleDto>> getRole(String uid){
+    public Result<List<RoleDto>> getRole(String uid) {
         System.out.println("getRole--------------------");
         Result result = new Result();
         result.setState(Result.OK);
         List<RoleDto> role = roleService.getRole(uid);
         result.setData(role);
-        return  result;
+        return result;
     }
 
 
@@ -43,22 +43,22 @@ public class RoleController {
     @RequiresUser
     @RequiresRoles("系统管理员")
     @ResponseBody
-    public Result<List<PermissionDto>> getPermission(String rid){
+    public Result<List<PermissionDto>> getPermission(String rid) {
         Result<List<PermissionDto>> result = new Result();
         List<PermissionDto> permission = roleService.getPermission(rid);
         result.setState(Result.OK);
         result.setData(permission);
-        return  result;
+        return result;
     }
 
     @RequestMapping("updateRolePermission")
     @ResponseBody
     @RequiresUser
     @RequiresRoles("系统管理员")
-    public  Result updateRolePermission(String rid,String pid,Boolean checked){
-        Boolean isSuccess = roleService.updateRolePermission(rid,pid,checked);
+    public Result updateRolePermission(String rid, String pid, Boolean checked) {
+        Boolean isSuccess = roleService.updateRolePermission(rid, pid, checked);
         Result result = new Result<>();
-        result.setState(isSuccess?0:1);
-        return  result;
+        result.setState(isSuccess ? 0 : 1);
+        return result;
     }
 }

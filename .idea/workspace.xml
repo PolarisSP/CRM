@@ -9,1013 +9,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/IndustryController.java" description="Result&lt;List&lt;Map&lt;String,String&gt;&gt;&gt; result = new Resu..." line="45" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1074e1ad-8455-4af3-b4fd-c8e22347936c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/IndustryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/PageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/SourceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/VisitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/IndustryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/PermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/SourceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/VisitMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dto/InitMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dto/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dto/PermissionDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dto/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/dto/RoleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/Industry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/Source.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/Visit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/listener/CustomerReadListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/realms/MyRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/IndustryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/SourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/VisitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/IndustryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/SourceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/VisitServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/utils/DateConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/utils/PermissionConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/utils/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CustomerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/IndustryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/VisitMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/springMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/Excel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/addCustomer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/addSaleman.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/addVisit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/area.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/color-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/customerManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/editRole.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/editRolePermission.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/editUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/form-step.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/icon-picker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/industry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/layer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/login-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/login-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/saleman.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/selectCustomer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/selectVisit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/table-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/table/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/table/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/user-password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/user-setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/userManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/visit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/welcome-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/welcome-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/welcome-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/reg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/captcha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/donate_qrcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.particleground.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/main-admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/api/clear.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/api/init.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/api/menus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/api/table.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/api/tableSelect.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/api/upload.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/css/layuimini.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/images/captcha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/images/donate_qrcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/echarts/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/echarts/echartsTheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/iconPicker/iconPickerFa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/layarea/layarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/layuimini/miniAdmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/layuimini/miniMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/layuimini/miniTab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/layuimini/miniTheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/layuimini/miniTongji.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/step-lay/step.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/step-lay/step.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/tableSelect/tableSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/treetable-lay/treetable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/treetable-lay/treetable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/wangEditor/fonts/w-e-icon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/wangEditor/wangEditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/wangEditor/wangEditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/wangEditor/wangEditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/wangEditor/wangEditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/js/lay-module/wangEditor/wangEditor.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/jq-module/jquery.particleground.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/jq-module/paigusu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/jq-module/zyupload/zyupload-1.0.0.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/jq-module/zyupload/zyupload-1.0.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/jquery-3.4.1/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/lib/layui-v2.5.5/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/area.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/color-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/form-step.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/icon-picker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/layer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/login-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/login-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/table-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/table/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/table/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/user-password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/user-setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/welcome-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/welcome-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuimini/page/welcome-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShiroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringTesty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CustomerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/IndustryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/VisitMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/springMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/controller/CustomerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/controller/IndustryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/controller/PageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/controller/RoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/controller/SourceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/controller/VisitController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dao/CustomerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dao/IndustryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dao/PermissionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dao/RoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dao/SourceMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dao/VisitMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dto/InitMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dto/Menu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dto/PermissionDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dto/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/dto/RoleDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/entity/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/entity/Industry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/entity/Permission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/entity/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/entity/Source.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/entity/Visit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/listener/CustomerReadListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/realms/MyRealm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/IndustryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/RoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/SourceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/VisitService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/impl/IndustryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/impl/SourceServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/service/impl/VisitServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/utils/DateConvert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/utils/PermissionConvert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/utils/StringUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/mapper/CustomerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/mapper/IndustryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/mapper/PermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/mapper/SourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/mapper/VisitMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/springMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/controller/CustomerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/controller/IndustryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/controller/PageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/controller/RoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/controller/SourceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/controller/VisitController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dao/CustomerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dao/IndustryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dao/PermissionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dao/RoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dao/SourceMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dao/VisitMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dto/InitMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dto/Menu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dto/PermissionDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dto/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/dto/RoleDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/entity/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/entity/Industry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/entity/Permission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/entity/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/entity/Source.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/entity/Visit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/listener/CustomerReadListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/realms/MyRealm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/IndustryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/RoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/SourceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/VisitService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/impl/IndustryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/impl/SourceServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/service/impl/VisitServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/utils/DateConvert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/utils/PermissionConvert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/classes/xin/spgraceme/utils/StringUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/asm-4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/aspectjrt-1.9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/cglib-3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/commons-collections4-4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/curvesapi-1.04.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/druid-1.1.20.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/easyexcel-2.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/ehcache-3.7.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/fastjson-1.1.34.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/filters-2.0.235-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/jackson-annotations-2.9.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/jersey-client-1.18.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/jersey-core-1.18.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/pagehelper-5.1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/poi-3.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/poi-ooxml-3.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/poi-ooxml-schemas-3.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-cache-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-config-core-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-config-ogdl-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-core-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-crypto-cipher-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-crypto-core-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-crypto-hash-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-event-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-lang-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-spring-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/shiro-web-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/slf4j-nop-1.7.24.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-aspects-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-orm-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/lib/xmlbeans-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/Excel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/addCustomer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/addSaleman.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/addVisit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/area.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/color-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/customerManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/editRole.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/editRolePermission.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/editUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/form-step.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/icon-picker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/industry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/layer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/login-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/login-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/saleman.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/selectCustomer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/selectVisit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/table-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/table/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/table/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/user-password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/user-setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/userManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/visit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/welcome-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/welcome-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/page/welcome-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/pages/reg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/images/captcha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/images/donate_qrcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/js/jquery.particleground.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/main-admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layui/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/api/clear.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/api/init.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/api/menus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/api/table.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/api/tableSelect.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/api/upload.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/css/layuimini.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/images/captcha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/images/donate_qrcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/echarts/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/echarts/echartsTheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/iconPicker/iconPickerFa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/layarea/layarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/layuimini/miniAdmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/layuimini/miniMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/layuimini/miniTab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/layuimini/miniTheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/layuimini/miniTongji.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/step-lay/step.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/step-lay/step.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/tableSelect/tableSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/treetable-lay/treetable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/treetable-lay/treetable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/wangEditor/fonts/w-e-icon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/wangEditor/wangEditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/wangEditor/wangEditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/wangEditor/wangEditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/wangEditor/wangEditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/js/lay-module/wangEditor/wangEditor.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/jq-module/jquery.particleground.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/jq-module/paigusu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/jq-module/zyupload/zyupload-1.0.0.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/jq-module/zyupload/zyupload-1.0.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/jquery-3.4.1/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/lib/layui-v2.5.5/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/area.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/color-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/form-step.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/icon-picker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/layer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/login-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/login-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/table-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/table/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/table/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/user-password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/user-setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/welcome-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/welcome-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/crm/layuimini/page/welcome-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/ShiroTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/StringTesty.class" afterDir="false" />
+    <list default="true" id="1074e1ad-8455-4af3-b4fd-c8e22347936c" name="Default Changelist" comment="修改描述：上传ignore文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShiroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShiroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xin/spgraceme/listener/CustomerReadListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xin/spgraceme/listener/CustomerReadListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ShiroTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShiroTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1025,67 +24,90 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="crm" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/listener/CustomerReadListener.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/RoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/RoleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+            <state relative-caret-position="285">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/customerManager.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3610">
-              <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/utils/PermissionConvert.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/service/RoleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="95">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/dto/InitMenu.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/PermissionMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/Subject.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/RoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
+            <state relative-caret-position="76">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ShiroTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/PrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14611">
+              <caret line="820" selection-start-line="820" selection-end-line="820" />
             </state>
           </provider>
         </entry>
@@ -1155,6 +177,8 @@
       <find>captchaPic</find>
       <find>ResponseBody</find>
       <find>getThreadPoolExecutor</find>
+      <find>hashAlgorithmName</find>
+      <find>roleMapper</find>
     </findStrings>
     <replaceStrings>
       <replace>xin.spgraceme.dao</replace>
@@ -1169,9 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/PermissionMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/PermissionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/CustomerMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/CustomerMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/SourceService.java" />
@@ -1203,7 +224,6 @@
         <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/utils/DateConvert.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/selectCustomer.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/selectVisit.html" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/springMVC.xml" />
         <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/CustomerServiceImpl.java" />
@@ -1216,10 +236,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/customerManager.html" />
         <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/dto/PermissionDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/IndustryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/StringTesty.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/listener/CustomerReadListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ShiroTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/RoleServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -1276,6 +300,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1524,22 +550,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1565,7 +591,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringTesty">
+  <component name="RunManager" selected="Application.ShiroTest">
     <configuration name="ShiroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ShiroTest" />
       <module name="crm" />
@@ -1660,8 +686,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringTesty" />
         <item itemvalue="Application.ShiroTest" />
+        <item itemvalue="Application.StringTesty" />
       </list>
     </recent_temporary>
   </component>
@@ -1722,11 +748,26 @@
       <workItem from="1618383904259" duration="595000" />
       <workItem from="1618490252700" duration="1251000" />
       <workItem from="1618495717697" duration="1567000" />
+      <workItem from="1618534892918" duration="1494000" />
+      <workItem from="1618561890703" duration="4198000" />
+      <workItem from="1618569996222" duration="755000" />
+      <workItem from="1618570865430" duration="1186000" />
+      <workItem from="1618572104545" duration="914000" />
+      <workItem from="1618626744426" duration="2337000" />
+      <workItem from="1618751193804" duration="595000" />
     </task>
+    <task id="LOCAL-00001" summary="修改描述：上传ignore文件">
+      <created>1618626820409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618626820409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198251000" />
+    <option name="totallyTimeSpent" value="209730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1738,45 +779,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49484536" visible="true" weight="0.20801815" />
-      <window_info id="Structure" order="1" sideWeight="0.5051546" side_tool="true" weight="0.19610779" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.22554891" />
+      <window_info id="Structure" order="1" sideWeight="0.50511944" side_tool="true" weight="0.21709532" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50511944" side_tool="true" weight="0.21709532" />
       <window_info id="Learn" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Web" order="8" sideWeight="0.50511944" side_tool="true" weight="0.21709532" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32783505" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3474227" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42886597" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42832765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32935154" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.94889265" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.32879046" />
-      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32879046" />
-      <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.6996587" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32764506" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32764506" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32935154" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32935154" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32879046" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Codota" order="5" />
+      <window_info anchor="right" id="Codota" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="RestServices" order="11" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="12" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Key Promoter X" order="13" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49574107" visible="true" weight="0.30484116" />
@@ -1821,71 +864,69 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="修改描述：上传完整项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改描述：上传完整项目" />
+    <MESSAGE value="修改描述：上传ignore文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改描述：上传ignore文件" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/Industry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/Source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/Visit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/page/visit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/SecurityUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1997,20 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/PermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/SourceMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -2043,20 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="161" column="51" lean-forward="true" selection-start-line="161" selection-start-column="51" selection-end-line="161" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -2133,20 +1146,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/listener/CustomerReadListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/utils/PermissionConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/listener/CustomerReadListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+        <state relative-caret-position="513">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2171,6 +1181,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
           <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/util/ByteSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/PermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/dao/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShiroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14611">
+          <caret line="820" selection-start-line="820" selection-end-line="820" />
         </state>
       </provider>
     </entry>
@@ -2205,10 +1284,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/utils/PermissionConvert.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/spgraceme/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2267,7 +1346,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
