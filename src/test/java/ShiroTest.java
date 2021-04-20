@@ -19,6 +19,8 @@ public class ShiroTest {
 
         System.out.println("--------------------------");
 
+        System.out.println("master分支更新");
+
         System.out.println("测试本地clone分支");
 
 
