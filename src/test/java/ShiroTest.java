@@ -19,6 +19,8 @@ public class ShiroTest {
 
         System.out.println("--------------------------");
 
+        System.out.println("master分支更新");
+
 //        SimpleAuthenticationInfo info = null; //new SimpleAuthenticationInfo(principal, credentials, realmName);
 //        info = new SimpleAuthenticationInfo(principal, credentials, credentialsSalt, realmName);
 //        return info;
