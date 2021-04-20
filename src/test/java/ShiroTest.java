@@ -19,6 +19,10 @@ public class ShiroTest {
 
         System.out.println("--------------------------");
 
+        System.out.println("测试本地clone分支");
+
+
+
 //        SimpleAuthenticationInfo info = null; //new SimpleAuthenticationInfo(principal, credentials, realmName);
 //        info = new SimpleAuthenticationInfo(principal, credentials, credentialsSalt, realmName);
 //        return info;
