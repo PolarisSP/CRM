@@ -23,7 +23,7 @@ public class ShiroTest {
 
         System.out.println("测试本地clone分支");
 
-
+        System.out.println("Merge测试");
 
 //        SimpleAuthenticationInfo info = null; //new SimpleAuthenticationInfo(principal, credentials, realmName);
 //        info = new SimpleAuthenticationInfo(principal, credentials, credentialsSalt, realmName);
